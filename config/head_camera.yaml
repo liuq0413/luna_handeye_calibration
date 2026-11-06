@@ -1,0 +1,11 @@
+/**:
+  ros__parameters:
+    image_topic: /camera/camera/color/image_raw
+    camera_info_topic: /camera/camera/color/camera_info
+    joint_topic: /tj/joint_states
+    output: calibration_data/head_samples.yaml
+    base_frame: base_link
+    mount_frame: Head_J2_Link
+    joint_aliases: '{"Head_J2_Joint": "Head_J2_joint"}'
+    tag_id: 0
+    tag_size: 0.08

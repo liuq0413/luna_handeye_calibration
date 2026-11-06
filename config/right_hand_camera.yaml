@@ -1,0 +1,13 @@
+/**:
+  ros__parameters:
+    image_topic: /wrist_right_camera/camera/color/image_raw
+    # 当前自定义腕部驱动不发布 CameraInfo，使用前必须提供匹配的内参流。
+    camera_info_topic: /wrist_right_camera/camera/color/camera_info
+    joint_topic: /tj/joint_states
+    intrinsics_file: calibration_data/right_d405_intrinsics.yaml
+    output: calibration_data/right_hand_samples.yaml
+    base_frame: base_link
+    mount_frame: Arm_R7_Link
+    joint_aliases: '{}'
+    tag_id: 0
+    tag_size: 0.08
